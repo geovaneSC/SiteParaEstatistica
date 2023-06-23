@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body  {
+   background-color: rgb(0, 0, 0);
+}
+
+/* parte do estilo da imagem de fundo */
+.img img{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    
+}
+.img_1 img{
+    position: relative;
+    margin-top:5%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    
+}
+main{
+    background-color: brown;
+    padding: 10px;
+}
+/*aqui fica o menu */
+nav {
+    
+    margin-left: 30%;
+   
+   
+    
+    display: flex;
+}
+/*detalhamento do menu */
+nav a{
+    color:rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+    margin-left: 2%;
+    text-align: center;
+    cursor: pointer;
+}
+ nav a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+.container{
+    position:absolute;
+    top: 20%;
+    left: 15%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 10px;
+    margin-left: 5%;
+    padding: 220px;
+    width: 1000px;
+    color: white;
+
+}
+
+.container h2{
+    margin-top: 5%;
+}
+
+.container2{
+    position:absolute;
+    top: 130%;
+    left: 23%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 10px;
+    margin-left: -8%;
+    padding: 220px;
+    width: 1350px;
+    color: white;
+
+}
+.container2 .video_1{
+    margin-left: -20%;
+    margin-top: -15%;
+}
+.container2 .video_2{
+    margin-left: 60%;
+    margin-top: -35.5%;
+}
+
+.container2 .video_3{
+    margin-left: -20%;
+    margin-top: 3%
+    
+}
+.container2 .video_4{
+    margin-left: 60%;
+    margin-top: -35.5%;
+    
+}
+
+
+.fim{
+    color: white;
+    background-color: brown;
+    padding: 25px;
+    margin-left: -30%;
+    margin-top: 0%;
+}
+.fim h2{
+    margin-left: 24%;
+}
+.fim .parag{
+    margin-top: 0.5%;
+    margin-left:24%;
+}
+.parag  img{
+    width: 30px;
+    height: 30px;
+}
+.parag  a{
+    text-decoration: none;
+    color: white;
+}
+
+.miranha{
+    margin-top: -8%;
+  
+}
+@media screen and (max-width: 1680px){
+    main{
+        background-color: brown;
+        padding: 10px;
+    }
+    /*aqui fica o menu */
+    nav {
+        
+        margin-left: 25%;
+       
+       
+        
+        display: flex;
+    }
+    /*detalhamento do menu */
+    nav a{
+        color:rgb(0, 0, 0);
+        padding: 20px;
+        text-decoration: none;
+        margin-left: 2%;
+        text-align: center;
+        cursor: pointer;
+    }
+}
